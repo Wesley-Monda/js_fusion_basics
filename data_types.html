@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Types</title>
+</head>
+<body>
+<script>
+    //strings, numbers, booleans,undefined, NaN, null,arrays, objects
+    let name = "Hong Huang"
+    console.log('name')
+    let city = 'Nairobi'
+    let sentence = `My city is ${city} and my name is ${name}`  // String interpolation
+    console.log(sentence)
+    // alert(`Hey ${name}`)
+    console.log(sentence.toLowerCase())
+    console.log(sentence.toUpperCase())
+
+    let weight = 200.99
+    let result = weight * 7 - 5/ 67 + 78
+    console.log("100d"/10) // Not a number ==NaN
+    let height
+    console.log(height) // undefined== TYou created a variable but did not assign
+    let email = null // no value/ blank/ empty
+    let scores = [78, 54, 92]
+    console.log(scores[0])
+
+    let car = {
+        make:"TOYOTA",
+        model:"Probox",
+        year:"2021",
+        color: "White",
+        drive: "manual"
+    }
+    console.log(car.color)
+
+    let isComplete = true
+    let isBoss = true
+</script>
+</body>
+</html>
